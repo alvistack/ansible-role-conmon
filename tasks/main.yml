@@ -80,7 +80,6 @@
     TMP_DIR="$(mktemp -d)" \
       && tar -zx -C $TMP_DIR -f {{ conmon_download.dest }} --strip-components=1 \
       && cd $TMP_DIR \
-      && rm -rf /usr/local/bin/conmon \
       && make \
       && make install \
       && rm -rf $TMP_DIR
