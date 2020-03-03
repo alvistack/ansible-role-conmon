@@ -17,9 +17,18 @@
 - hosts: all
   remote_user: root
   become: true
-  roles:
-    - role: python
-    - role: git
-    - role: golang
-    - role: runc
-    - role: conmon
+  tasks:
+    - include_role:
+        name: python
+
+    - include_role:
+        name: git
+
+    - include_role:
+        name: golang
+
+    - include_role:
+        name: runc
+
+    - include_role:
+        name: conmon
