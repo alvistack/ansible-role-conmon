@@ -14,8 +14,21 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# conmon version.
-conmon_version: "v2.0.11"
+- hosts: all
+  remote_user: root
+  become: true
+  tasks:
+    - include_role:
+        name: python
 
-# conmon download details.
-conmon_download: "{{ _conmon_download[conmon_version] }}"
+    - include_role:
+        name: git
+
+    - include_role:
+        name: golang
+
+    - include_role:
+        name: runc
+
+    - include_role:
+        name: conmon

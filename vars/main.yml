@@ -15,6 +15,10 @@
 # limitations under the License.
 
 _conmon_download:
+  v2.0.11:
+    url: "https://github.com/containers/conmon/archive/v2.0.11.tar.gz"
+    dest: "{{ ansible_user_dir }}/.ansible/tmp/conmon-v2.0.11.tar.gz"
+    checksum: "sha1:4cd3c95ef03a9c53b8113703e28ec48e46bafc40"
   v2.0.10:
     url: "https://github.com/containers/conmon/archive/v2.0.10.tar.gz"
     dest: "{{ ansible_user_dir }}/.ansible/tmp/conmon-v2.0.10.tar.gz"

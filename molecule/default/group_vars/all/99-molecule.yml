@@ -13,9 +13,3 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
-# conmon version.
-conmon_version: "v2.0.11"
-
-# conmon download details.
-conmon_download: "{{ _conmon_download[conmon_version] }}"
