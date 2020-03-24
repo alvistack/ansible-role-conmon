@@ -15,6 +15,18 @@
 # limitations under the License.
 
 _conmon_download:
+  v2.0.14:
+    url: "https://github.com/containers/conmon/archive/v2.0.14.tar.gz"
+    dest: "{{ ansible_user_dir }}/.ansible/tmp/conmon-v2.0.14.tar.gz"
+    checksum: "sha1:b7ad2c2e0b2782842db73c2f8094f1743dac62a6"
+  v2.0.13:
+    url: "https://github.com/containers/conmon/archive/v2.0.13.tar.gz"
+    dest: "{{ ansible_user_dir }}/.ansible/tmp/conmon-v2.0.13.tar.gz"
+    checksum: "sha1:d790fc4baeb5150edce57b54a12f4cd4a08f96d5"
+  v2.0.12:
+    url: "https://github.com/containers/conmon/archive/v2.0.12.tar.gz"
+    dest: "{{ ansible_user_dir }}/.ansible/tmp/conmon-v2.0.12.tar.gz"
+    checksum: "sha1:b61a21f568b6f0166d2cdd620cc2bd71bb32b054"
   v2.0.11:
     url: "https://github.com/containers/conmon/archive/v2.0.11.tar.gz"
     dest: "{{ ansible_user_dir }}/.ansible/tmp/conmon-v2.0.11.tar.gz"
