@@ -74,20 +74,19 @@
   until: get_url_result is succeeded
   tags: conmon
 
-- name: build package
+- name: unarchive package
   shell: |
     set -o pipefail
+    cd /usr/local/bin
     TMP_DIR="$(mktemp -d)" \
-      && tar -zx -C $TMP_DIR -f {{ conmon_download.dest }} --strip-components=1 \
-      && cd $TMP_DIR \
-      && make \
-      && make install \
+      && cp {{ conmon_download.dest }} $TMP_DIR/conmon \
+      && chown root:root $TMP_DIR/conmon \
+      && chmod 0755 $TMP_DIR/conmon \
+      && mv $TMP_DIR/conmon . \
       && rm -rf $TMP_DIR
   args:
     executable: "/bin/bash"
   when: get_url_result is changed
-  register: result
-  until: result is succeeded
   tags: conmon
 
 - name: prepare files
