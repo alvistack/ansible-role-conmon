@@ -13,10 +13,3 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
-_apt:
-  - { state: "latest", name: "gcc" }
-  - { state: "latest", name: "libc6-dev" }
-  - { state: "latest", name: "libglib2.0-dev" }
-  - { state: "latest", name: "make" }
-  - { state: "latest", name: "pkg-config" }

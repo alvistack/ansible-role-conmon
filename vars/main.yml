@@ -15,23 +15,27 @@
 # limitations under the License.
 
 _conmon_download:
+  v2.0.15:
+    url: "https://github.com/containers/conmon/releases/download/v2.0.15/conmon"
+    dest: "{{ ansible_user_dir }}/.ansible/tmp/conmon-v2.0.15"
+    checksum: "sha1:2507385705de4904a1d2d37f627c00e94bba72ff"
   v2.0.14:
-    url: "https://github.com/containers/conmon/archive/v2.0.14.tar.gz"
-    dest: "{{ ansible_user_dir }}/.ansible/tmp/conmon-v2.0.14.tar.gz"
-    checksum: "sha1:b7ad2c2e0b2782842db73c2f8094f1743dac62a6"
+    url: "https://github.com/containers/conmon/releases/download/v2.0.14/conmon"
+    dest: "{{ ansible_user_dir }}/.ansible/tmp/conmon-v2.0.14"
+    checksum: "sha1:b75f775330113675ff6edd8351e4cd67dec9ffd2"
   v2.0.13:
-    url: "https://github.com/containers/conmon/archive/v2.0.13.tar.gz"
-    dest: "{{ ansible_user_dir }}/.ansible/tmp/conmon-v2.0.13.tar.gz"
-    checksum: "sha1:d790fc4baeb5150edce57b54a12f4cd4a08f96d5"
+    url: "https://github.com/containers/conmon/releases/download/v2.0.13/conmon"
+    dest: "{{ ansible_user_dir }}/.ansible/tmp/conmon-v2.0.13"
+    checksum: "sha1:5ef59bbc973ee8173a9f7700daf5c6a8743bae61"
   v2.0.12:
-    url: "https://github.com/containers/conmon/archive/v2.0.12.tar.gz"
-    dest: "{{ ansible_user_dir }}/.ansible/tmp/conmon-v2.0.12.tar.gz"
-    checksum: "sha1:b61a21f568b6f0166d2cdd620cc2bd71bb32b054"
+    url: "https://github.com/containers/conmon/releases/download/v2.0.12/conmon"
+    dest: "{{ ansible_user_dir }}/.ansible/tmp/conmon-v2.0.12"
+    checksum: "sha1:a267aaef8a06d5d5bb3acfd64272d783c1ec253f"
   v2.0.11:
-    url: "https://github.com/containers/conmon/archive/v2.0.11.tar.gz"
-    dest: "{{ ansible_user_dir }}/.ansible/tmp/conmon-v2.0.11.tar.gz"
-    checksum: "sha1:4cd3c95ef03a9c53b8113703e28ec48e46bafc40"
+    url: "https://github.com/containers/conmon/releases/download/v2.0.11/conmon"
+    dest: "{{ ansible_user_dir }}/.ansible/tmp/conmon-v2.0.11"
+    checksum: "sha1:66529371bd9f9fa21291b70cca506f69c44d68fb"
   v2.0.10:
-    url: "https://github.com/containers/conmon/archive/v2.0.10.tar.gz"
-    dest: "{{ ansible_user_dir }}/.ansible/tmp/conmon-v2.0.10.tar.gz"
-    checksum: "sha1:289611c9bc92f722b54023757205bec100021589"
+    url: "https://github.com/containers/conmon/releases/download/v2.0.10/conmon"
+    dest: "{{ ansible_user_dir }}/.ansible/tmp/conmon-v2.0.10"
+    checksum: "sha1:2fa7e18daa424b5b6808192b805ba53529a0fd32"
