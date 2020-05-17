@@ -28,7 +28,4 @@
         name: golang
 
     - include_role:
-        name: runc
-
-    - include_role:
         name: conmon

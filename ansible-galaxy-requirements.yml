@@ -35,7 +35,3 @@ roles:
   - name: golang
     src: https://github.com/alvistack/ansible-role-golang
     version: develop
-
-  - name: runc
-    src: https://github.com/alvistack/ansible-role-runc
-    version: develop
