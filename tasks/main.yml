@@ -75,11 +75,13 @@
   tags: conmon
 
 - name: build package
+  environment:
+    PATH: "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
   shell: |
     set -o pipefail
     TMP_DIR="$(mktemp -d)" \
-      && tar -zx -C $TMP_DIR -f {{ conmon_download.dest }} --strip-components=1 \
       && cd $TMP_DIR \
+      && tar -zx -C . -f {{ conmon_download.dest }} --strip-components=1 \
       && make \
       && make install \
       && rm -rf $TMP_DIR
