@@ -19,4 +19,4 @@ _zypper:
   - { state: "latest", name: "glib2-devel" }
   - { state: "latest", name: "glibc-devel" }
   - { state: "latest", name: "make" }
-  - { state: "latest", name: "pkgconfig" }
+  - { state: "latest", name: "pkg-config" }
