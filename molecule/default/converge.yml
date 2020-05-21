@@ -27,9 +27,5 @@
       tags: git
 
     - include_role:
-        name: golang
-      tags: golang
-
-    - include_role:
         name: conmon
       tags: conmon
