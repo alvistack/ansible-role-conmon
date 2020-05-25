@@ -16,7 +16,6 @@
 
 _conmon_download:
   v2.0.16:
-    url: "https://github.com/containers/conmon/archive/v2.0.16.tar.gz"
-    dest: "{{ ansible_user_dir }}/.ansible/tmp/conmon-v2.0.16.tar.gz"
-    checksum: "sha1:c80aef72339d8fc4cbd1b4ee4f5066eccee6177c"
-    patch: "https://github.com/containers/conmon/compare/v2.0.16...alvistack:v2.0.16-nix.patch"
+    url: "https://github.com/containers/conmon/releases/download/v2.0.16/conmon"
+    dest: "{{ ansible_user_dir }}/.ansible/tmp/conmon-v2.0.16"
+    checksum: "sha1:f9f8122e41db347b8d8ec81450451f31ff82b3b9"
