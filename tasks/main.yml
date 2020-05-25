@@ -79,11 +79,15 @@
     PATH: "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
   shell: |
     set -o pipefail
+    source /etc/profile
     TMP_DIR="$(mktemp -d)" \
+      && tar -zx -C $TMP_DIR -f {{ conmon_download.dest }} --strip-components=1 \
       && cd $TMP_DIR \
-      && tar -zx -C . -f {{ conmon_download.dest }} --strip-components=1 \
-      && make \
-      && make install \
+      {% if conmon_download.patch %}&& curl -skL {{ conmon_download.patch }} | patch -p1{% endif %}
+      && nix build -f $TMP_DIR/nix/ \
+      && chown -Rf root:root result*/bin/* \
+      && chmod 0755 result*/bin/* \
+      && mv result*/bin/* /usr/local/bin/ \
       && rm -rf $TMP_DIR
   args:
     executable: "/bin/bash"
