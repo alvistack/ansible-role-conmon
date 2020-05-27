@@ -15,7 +15,7 @@
 # limitations under the License.
 
 _conmon_download:
-  v2.0.16:
-    url: "https://github.com/containers/conmon/releases/download/v2.0.16/conmon"
-    dest: "{{ ansible_user_dir }}/.ansible/tmp/conmon-v2.0.16"
-    checksum: "sha1:f9f8122e41db347b8d8ec81450451f31ff82b3b9"
+  v2.0.17:
+    url: "https://github.com/containers/conmon/releases/download/v2.0.17/conmon"
+    dest: "{{ ansible_user_dir }}/.ansible/tmp/conmon-v2.0.17"
+    checksum: "sha1:d205cbd6783332a212c5ae92d73c77178c2d2f28"
