@@ -18,4 +18,4 @@ _conmon_download:
   v2.0.17:
     url: "https://github.com/alvistack/conmon/releases/download/v2.0.17/conmon-v2.0.17-linux-amd64"
     dest: "{{ ansible_user_dir }}/.ansible/tmp/conmon-v2.0.17-linux-amd64"
-    checksum: "sha1:cc895d849e6ff6a99a8b3f0607f946ef7827f16d"
+    checksum: "sha1:62e98f4c3c785c195c1347db242bfde95bd635dc"
