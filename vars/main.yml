@@ -16,14 +16,14 @@
 
 _conmon_download:
   v2.0.21:
-    url: "https://github.com/alvistack/conmon/releases/download/v2.0.21/conmon-v2.0.21-linux-amd64"
+    url: "https://github.com/alvistack/containers-conmon/releases/download/v2.0.21/conmon-v2.0.21-linux-amd64"
     dest: "{{ ansible_user_dir }}/.ansible/tmp/conmon-v2.0.21-linux-amd64"
     checksum: "sha1:a1afe2959489fcf5f0015a5c31a38e6f8b35238e"
   v2.0.20:
-    url: "https://github.com/alvistack/conmon/releases/download/v2.0.20/conmon-v2.0.20-linux-amd64"
+    url: "https://github.com/alvistack/containers-conmon/releases/download/v2.0.20/conmon-v2.0.20-linux-amd64"
     dest: "{{ ansible_user_dir }}/.ansible/tmp/conmon-v2.0.20-linux-amd64"
     checksum: "sha1:241ce9f6ad6f7ca58c2d2938b254341329cff060"
   v2.0.19:
-    url: "https://github.com/alvistack/conmon/releases/download/v2.0.19/conmon-v2.0.19-linux-amd64"
+    url: "https://github.com/alvistack/containers-conmon/releases/download/v2.0.19/conmon-v2.0.19-linux-amd64"
     dest: "{{ ansible_user_dir }}/.ansible/tmp/conmon-v2.0.19-linux-amd64"
     checksum: "sha1:5c5ec0d5e44d66023f9ff31cea1aec8815ca20ef"
