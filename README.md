@@ -1,6 +1,6 @@
 # Ansible Role for conmon
 
-[![Travis](https://img.shields.io/travis/com/alvistack/ansible-role-conmon.svg)](https://travis-ci.com/alvistack/ansible-role-conmon)
+[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-conmon/master)](https://gitlab.com/alvistack/ansible-role-conmon/-/pipelines)
 [![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-conmon.svg)](https://github.com/alvistack/ansible-role-conmon/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-conmon.svg)](https://github.com/alvistack/ansible-role-conmon/blob/master/LICENSE)
 [![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.conmon-blue.svg)](https://galaxy.ansible.com/alvistack/conmon)
