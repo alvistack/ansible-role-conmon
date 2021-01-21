@@ -15,6 +15,10 @@
 # limitations under the License.
 
 _conmon_download:
+  "v2.0.25":
+    url: "https://github.com/alvistack/containers-conmon/releases/download/v2.0.25/conmon-v2.0.25-linux-amd64"
+    dest: "{{ ansible_user_dir }}/.ansible/tmp/conmon-v2.0.25-linux-amd64"
+    checksum: "sha1:da55035139469f32ea7607a1c01930bea09aba78"
   "v2.0.24":
     url: "https://github.com/alvistack/containers-conmon/releases/download/v2.0.24/conmon-v2.0.24-linux-amd64"
     dest: "{{ ansible_user_dir }}/.ansible/tmp/conmon-v2.0.24-linux-amd64"
@@ -23,7 +27,3 @@ _conmon_download:
     url: "https://github.com/alvistack/containers-conmon/releases/download/v2.0.22/conmon-v2.0.22-linux-amd64"
     dest: "{{ ansible_user_dir }}/.ansible/tmp/conmon-v2.0.22-linux-amd64"
     checksum: "sha1:7398bd73c1aea3c8618257ad6764f6729b4b795c"
-  "v2.0.21":
-    url: "https://github.com/alvistack/containers-conmon/releases/download/v2.0.21/conmon-v2.0.21-linux-amd64"
-    dest: "{{ ansible_user_dir }}/.ansible/tmp/conmon-v2.0.21-linux-amd64"
-    checksum: "sha1:a1afe2959489fcf5f0015a5c31a38e6f8b35238e"

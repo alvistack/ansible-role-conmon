@@ -15,7 +15,7 @@
 # limitations under the License.
 
 # conmon version.
-conmon_version: "v2.0.24"
+conmon_version: "v2.0.25"
 
 # conmon download details.
 conmon_download: "{{ _conmon_download[conmon_version] }}"
