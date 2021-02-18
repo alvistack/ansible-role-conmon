@@ -16,14 +16,14 @@
 
 _conmon_download:
   "v2.0.26":
-    url: "https://github.com/alvistack/containers-conmon/releases/download/v2.0.26/conmon-v2.0.26-linux-amd64"
+    url: "http://github.com/alvistack/containers-conmon/releases/download/v2.0.26/conmon-v2.0.26-linux-amd64"
     dest: "/var/cache/ansible/891ddbdddd8a7c8178cab71c0f7fbd91f5baeee2cd5699317a2c2b724ec6bd5f/conmon-v2.0.26-linux-amd64"
     checksum: "sha256:891ddbdddd8a7c8178cab71c0f7fbd91f5baeee2cd5699317a2c2b724ec6bd5f"
   "v2.0.25":
-    url: "https://github.com/alvistack/containers-conmon/releases/download/v2.0.25/conmon-v2.0.25-linux-amd64"
+    url: "http://github.com/alvistack/containers-conmon/releases/download/v2.0.25/conmon-v2.0.25-linux-amd64"
     dest: "/var/cache/ansible/0329b05a3401abe95677646f5a039fcb6790ed55a90d48a9af3e08b45b9ea3c3/conmon-v2.0.25-linux-amd64"
     checksum: "sha256:0329b05a3401abe95677646f5a039fcb6790ed55a90d48a9af3e08b45b9ea3c3"
   "v2.0.24":
-    url: "https://github.com/alvistack/containers-conmon/releases/download/v2.0.24/conmon-v2.0.24-linux-amd64"
+    url: "http://github.com/alvistack/containers-conmon/releases/download/v2.0.24/conmon-v2.0.24-linux-amd64"
     dest: "/var/cache/ansible/f0f71d1e5b2dc552ea33db21ba5ab58cd17e5010f8999658692308ef6073d861/conmon-v2.0.24-linux-amd64"
     checksum: "sha256:f0f71d1e5b2dc552ea33db21ba5ab58cd17e5010f8999658692308ef6073d861"
