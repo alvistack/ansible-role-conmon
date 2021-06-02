@@ -17,13 +17,13 @@
 _conmon_download:
   "v2.0.28":
     url: "http://github.com/alvistack/containers-conmon/releases/download/v2.0.28/conmon-v2.0.28-linux-amd64"
-    dest: "/var/cache/ansible/4fcfb17953dc18e3e226cb9a3e63a12de70d9cbaa40fb375db054c0c77ea1324/conmon-v2.0.28-linux-amd64"
-    sha256sum: "4fcfb17953dc18e3e226cb9a3e63a12de70d9cbaa40fb375db054c0c77ea1324"
+    dest: "/tmp/4fcfb17953dc18e3e226cb9a3e63a12de70d9cbaa40fb375db054c0c77ea1324/conmon-v2.0.28-linux-amd64"
+    checksum: "4fcfb17953dc18e3e226cb9a3e63a12de70d9cbaa40fb375db054c0c77ea1324"
   "v2.0.27":
     url: "http://github.com/alvistack/containers-conmon/releases/download/v2.0.27/conmon-v2.0.27-linux-amd64"
-    dest: "/var/cache/ansible/3d741c6539f2f4d28d6bf34420771ce5ce8609770ac1e102c806b1a9244b879b/conmon-v2.0.27-linux-amd64"
-    sha256sum: "3d741c6539f2f4d28d6bf34420771ce5ce8609770ac1e102c806b1a9244b879b"
+    dest: "/tmp/3d741c6539f2f4d28d6bf34420771ce5ce8609770ac1e102c806b1a9244b879b/conmon-v2.0.27-linux-amd64"
+    checksum: "3d741c6539f2f4d28d6bf34420771ce5ce8609770ac1e102c806b1a9244b879b"
   "v2.0.26":
     url: "http://github.com/alvistack/containers-conmon/releases/download/v2.0.26/conmon-v2.0.26-linux-amd64"
-    dest: "/var/cache/ansible/891ddbdddd8a7c8178cab71c0f7fbd91f5baeee2cd5699317a2c2b724ec6bd5f/conmon-v2.0.26-linux-amd64"
-    sha256sum: "891ddbdddd8a7c8178cab71c0f7fbd91f5baeee2cd5699317a2c2b724ec6bd5f"
+    dest: "/tmp/891ddbdddd8a7c8178cab71c0f7fbd91f5baeee2cd5699317a2c2b724ec6bd5f/conmon-v2.0.26-linux-amd64"
+    checksum: "891ddbdddd8a7c8178cab71c0f7fbd91f5baeee2cd5699317a2c2b724ec6bd5f"
