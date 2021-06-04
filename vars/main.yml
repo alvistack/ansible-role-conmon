@@ -14,6 +14,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+_conmon_version:
+  "v2.0": "v2.0.28"
+
 _conmon_download:
   "v2.0.28":
     url: "http://github.com/alvistack/containers-conmon/releases/download/v2.0.28/conmon-v2.0.28-linux-amd64"
