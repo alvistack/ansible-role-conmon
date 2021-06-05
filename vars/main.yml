@@ -15,18 +15,18 @@
 # limitations under the License.
 
 _conmon_version:
-  "v2.0": "v2.0.28"
+  "v2.0": "v2.0.29"
 
 _conmon_download:
+  "v2.0.29":
+    url: "http://github.com/alvistack/containers-conmon/releases/download/v2.0.29/conmon-v2.0.29-linux-amd64"
+    dest: "/tmp/9e34335d70768e09d6d2a784b0f851935c110aeaee926b3ee6d9e07208e56833/conmon-v2.0.29-linux-amd64"
+    checksum: "9e34335d70768e09d6d2a784b0f851935c110aeaee926b3ee6d9e07208e56833"
   "v2.0.28":
     url: "http://github.com/alvistack/containers-conmon/releases/download/v2.0.28/conmon-v2.0.28-linux-amd64"
-    dest: "/tmp/4fcfb17953dc18e3e226cb9a3e63a12de70d9cbaa40fb375db054c0c77ea1324/conmon-v2.0.28-linux-amd64"
-    checksum: "4fcfb17953dc18e3e226cb9a3e63a12de70d9cbaa40fb375db054c0c77ea1324"
+    dest: "/tmp/b1f1ea1b14939a79f16ca204fbd0fb92382baddd41e2f57d64b159e5341e6f93/conmon-v2.0.28-linux-amd64"
+    checksum: "b1f1ea1b14939a79f16ca204fbd0fb92382baddd41e2f57d64b159e5341e6f93"
   "v2.0.27":
     url: "http://github.com/alvistack/containers-conmon/releases/download/v2.0.27/conmon-v2.0.27-linux-amd64"
     dest: "/tmp/3d741c6539f2f4d28d6bf34420771ce5ce8609770ac1e102c806b1a9244b879b/conmon-v2.0.27-linux-amd64"
     checksum: "3d741c6539f2f4d28d6bf34420771ce5ce8609770ac1e102c806b1a9244b879b"
-  "v2.0.26":
-    url: "http://github.com/alvistack/containers-conmon/releases/download/v2.0.26/conmon-v2.0.26-linux-amd64"
-    dest: "/tmp/891ddbdddd8a7c8178cab71c0f7fbd91f5baeee2cd5699317a2c2b724ec6bd5f/conmon-v2.0.26-linux-amd64"
-    checksum: "891ddbdddd8a7c8178cab71c0f7fbd91f5baeee2cd5699317a2c2b724ec6bd5f"
