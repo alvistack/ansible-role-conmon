@@ -15,7 +15,7 @@
 # limitations under the License.
 
 # conmon release.
-conmon_release: "v2.0"
+conmon_release: "2.0"
 
 # conmon version.
 conmon_version: "{{ _conmon_version[conmon_release] }}"
