@@ -15,18 +15,18 @@
 # limitations under the License.
 
 _conmon_version:
-  "v2.0": "v2.0.29"
+  "2.0": "2.0.29"
 
 _conmon_download:
-  "v2.0.29":
+  "2.0.29":
     url: "http://github.com/alvistack/containers-conmon/releases/download/v2.0.29/conmon-v2.0.29-linux-amd64"
     dest: "/var/cache/ansible/9e34335d70768e09d6d2a784b0f851935c110aeaee926b3ee6d9e07208e56833/conmon-v2.0.29-linux-amd64"
     checksum: "9e34335d70768e09d6d2a784b0f851935c110aeaee926b3ee6d9e07208e56833"
-  "v2.0.28":
+  "2.0.28":
     url: "http://github.com/alvistack/containers-conmon/releases/download/v2.0.28/conmon-v2.0.28-linux-amd64"
     dest: "/var/cache/ansible/b1f1ea1b14939a79f16ca204fbd0fb92382baddd41e2f57d64b159e5341e6f93/conmon-v2.0.28-linux-amd64"
     checksum: "b1f1ea1b14939a79f16ca204fbd0fb92382baddd41e2f57d64b159e5341e6f93"
-  "v2.0.27":
+  "2.0.27":
     url: "http://github.com/alvistack/containers-conmon/releases/download/v2.0.27/conmon-v2.0.27-linux-amd64"
     dest: "/var/cache/ansible/3d741c6539f2f4d28d6bf34420771ce5ce8609770ac1e102c806b1a9244b879b/conmon-v2.0.27-linux-amd64"
     checksum: "3d741c6539f2f4d28d6bf34420771ce5ce8609770ac1e102c806b1a9244b879b"
