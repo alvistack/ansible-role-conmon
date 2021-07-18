@@ -1,9 +1,13 @@
 # Ansible Role for conmon
 
-[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-conmon/master)](https://gitlab.com/alvistack/ansible-role-conmon/-/pipelines)
-[![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-conmon.svg)](https://github.com/alvistack/ansible-role-conmon/releases)
-[![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-conmon.svg)](https://github.com/alvistack/ansible-role-conmon/blob/master/LICENSE)
-[![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.conmon-blue.svg)](https://galaxy.ansible.com/alvistack/conmon)
+[![Gitlab pipeline
+status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-conmon/master)](https://gitlab.com/alvistack/ansible-role-conmon/-/pipelines)
+[![GitHub
+release](https://img.shields.io/github/release/alvistack/ansible-role-conmon.svg)](https://github.com/alvistack/ansible-role-conmon/releases)
+[![GitHub
+license](https://img.shields.io/github/license/alvistack/ansible-role-conmon.svg)](https://github.com/alvistack/ansible-role-conmon/blob/master/LICENSE)
+[![Ansible
+Role](https://img.shields.io/badge/galaxy-alvistack.conmon-blue.svg)](https://galaxy.ansible.com/alvistack/conmon)
 
 Ansible Role for conmon Installation.
 
@@ -39,7 +43,8 @@ This role could simply deploy to `localhost` as below:
 ## License
 
   - Code released under [Apache License 2.0](LICENSE)
-  - Docs released under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
+  - Docs released under [CC
+    BY 4.0](http://creativecommons.org/licenses/by/4.0/)
 
 ## Author Information
 
