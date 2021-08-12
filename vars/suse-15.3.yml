@@ -15,8 +15,8 @@
 # limitations under the License.
 
 _zypper_repository:
-  - name: "Virtualization:containers"
-    repo: "https://download.opensuse.org/repositories/Virtualization:/containers/openSUSE_Leap_15.3"
+  - name: "home:alvistack:containers"
+    repo: "http://download.opensuse.org/repositories/home:/alvistack:/containers/openSUSE_Leap_15.3"
     state: "present"
 
 _zypper:
