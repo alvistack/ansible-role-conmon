@@ -20,6 +20,7 @@
   become: true
   tasks:
     - name: conmon --version
-      ansible.builtin.command: conmon --version
+      ansible.builtin.command:
+        cmd: conmon --version
       register: result
       changed_when: result is not succeeded
